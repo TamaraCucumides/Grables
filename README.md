@@ -14,20 +14,20 @@ The code provided here is organized as self-contained Jupyter notebooks, grouped
 ```
 notebooks/
   synthetic/
-    00_create_data_and_tasks.ipynb
-    10_train_tabular.ipynb
-    20_train_tab_gnn.ipynb
+    01_create_data_and_tasks.ipynb
+    02_train_tabular.ipynb
+    03_train_tab_gnn.ipynb
 
   retail/
-    00_prepare_data_and_tasks.ipynb
-    10_train_tabular.ipynb
-    20_train_tab_gnn.ipynb
+    01_prepare_data_and_tasks.ipynb
+    02_train_tabular.ipynb
+    03_train_tab_gnn.ipynb
 
   relbench_trial/
-    00_prepare_data.ipynb
-    10_tabular.ipynb          # includes NFA
-    20_tab_gnn.ipynb
-    30_tab_gnn_db.ipynb
+    01_prepare_data.ipynb
+    02_tabular.ipynb          # includes NFA
+    03_tab_gnn.ipynb
+    04_tab_gnn_db.ipynb
 
 data/
   raw/        # datasets downloaded by the user
