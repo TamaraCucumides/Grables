@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ## Dataset Instructions
 
 ### 1. Synthetic Data
-No external data is required. Notebook `notebooks/synthetic/00_create_data_and_tasks.ipynb` creates the data and tasks. 
+No external data is required. Notebook `notebooks/synthetic/01_create_data_and_tasks.ipynb` creates the data and tasks. 
 
 ---
 
@@ -75,7 +75,7 @@ The experiments use the **UCI Online Retail dataset**.
 2. Place the file at:
    `data/raw/Online Retail.xlsx`
 
-You should run `notebooks/retail/00_prepare_data_and_tasks.ipynb` to instantiate the logical tasks. 
+You should run `notebooks/retail/01_prepare_data_and_tasks.ipynb` to instantiate the logical tasks. 
 
 ---
 
@@ -96,7 +96,7 @@ To reproduce the paper results:
 
 ---
 
-## Known Limitations
+## Limitations
 
 - Exact runtime may vary depending on hardware (CPU/GPU).
 - Some models (e.g., AutoGluon) may use nondeterministic components despite fixed seeds.
