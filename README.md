@@ -25,8 +25,8 @@ notebooks/
 
   relbench_trial/
     01_tabular_nfa.ipynb          
-    03_tab_gnn.ipynb
-    04_tab_gnn_db.ipynb
+    02_tab_gnn.ipynb
+    03_tab_gnn_db.ipynb
 
 data/
   raw/        # datasets downloaded by the user
