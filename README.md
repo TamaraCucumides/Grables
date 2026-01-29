@@ -14,20 +14,20 @@ The code provided here is organized as self-contained Jupyter notebooks, grouped
 ```
 notebooks/
   synthetic/
-    00_create_data_and_tasks.ipynb
-    10_train_tabular.ipynb
-    20_train_tab_gnn.ipynb
+    01_create_data_and_tasks.ipynb
+    02_train_tabular.ipynb
+    03_train_tab_gnn.ipynb
 
   retail/
-    00_prepare_data_and_tasks.ipynb
-    10_train_tabular.ipynb
-    20_train_tab_gnn.ipynb
+    01_prepare_data_and_tasks.ipynb
+    02_train_tabular.ipynb
+    03_train_tab_gnn.ipynb
 
   relbench_trial/
-    00_prepare_data.ipynb
-    10_tabular.ipynb          # includes NFA
-    20_tab_gnn.ipynb
-    30_tab_gnn_db.ipynb
+    01_prepare_data.ipynb
+    02_tabular.ipynb          # includes NFA
+    03_tab_gnn.ipynb
+    04_tab_gnn_db.ipynb
 
 data/
   raw/        # datasets downloaded by the user
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ## Dataset Instructions
 
 ### 1. Synthetic Data
-No external data is required. Notebook `notebooks/synthetic/00_create_data_and_tasks.ipynb` creates the data and tasks. 
+No external data is required. Notebook `notebooks/synthetic/01_create_data_and_tasks.ipynb` creates the data and tasks. 
 
 ---
 
@@ -75,7 +75,7 @@ The experiments use the **UCI Online Retail dataset**.
 2. Place the file at:
    `data/raw/Online Retail.xlsx`
 
-You should run `notebooks/retail/00_prepare_data_and_tasks.ipynb` to instantiate the logical tasks. 
+You should run `notebooks/retail/01_prepare_data_and_tasks.ipynb` to instantiate the logical tasks. 
 
 ---
 
@@ -96,7 +96,7 @@ To reproduce the paper results:
 
 ---
 
-## Known Limitations
+## Limitations
 
 - Exact runtime may vary depending on hardware (CPU/GPU).
 - Some models (e.g., AutoGluon) may use nondeterministic components despite fixed seeds.
