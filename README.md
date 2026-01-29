@@ -45,17 +45,12 @@ Each dataset has its own folder, and notebooks are numbered to indicate the sugg
 ### Python
 The code was run with **Python 3.9+**.
 
-### Dependencies
-Install dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
 
 **Note:**
 - Installing `torch`, `torch_geometric`, and `autogluon` may require following their official installation instructions depending on your CUDA / OS setup.
 - If PyTorch Geometric wheels are not found automatically, see:
   https://pytorch-geometric.readthedocs.io
+- Suggested to run notebooks in Google Colab. 
 
 ---
 
@@ -98,8 +93,8 @@ To reproduce the paper results:
 ## Limitations
 
 - Exact runtime may vary depending on hardware (CPU/GPU).
-- Some models (e.g., AutoGluon) may use nondeterministic components despite fixed seeds.
-- GPU memory requirements vary for GNN experiments.
+- Some models (e.g., AutoGluon) may use nondeterministic components despite fixed seeds, so results can be slightly different
+- GPU memory requirements vary for GNN experiments. As a reference, all experiments were run in Google Colab with T4 GPU. 
 
 ---
 
