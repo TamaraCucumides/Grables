@@ -24,8 +24,7 @@ notebooks/
     03_train_tab_gnn.ipynb
 
   relbench_trial/
-    01_prepare_data.ipynb
-    02_tabular.ipynb          # includes NFA
+    01_tabular_nfa.ipynb          
     03_tab_gnn.ipynb
     04_tab_gnn_db.ipynb
 
