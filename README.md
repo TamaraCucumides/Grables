@@ -1,4 +1,4 @@
-# Grables: Tabular Learning Beyond Independent Rows
+# Grables: When Graph Structure Helps Tabular Prediction
 
 
 This repository contains the code used to generate the experimental results for our paper.
